@@ -112,9 +112,9 @@ Add for prompt work:
 | File | Summary | Last Updated | Status |
 |------|---------|--------------|--------|
 | `topic_classify_output_v2.txt` | Most recent topic classification output | 2026-06-16 | ✅ Active output |
-| `topic_classify_output.txt` | Earlier topic classification run | 2026-06-16 | 🗑️ Delete — superseded by v2 |
-| `classify_output.txt` | General classification output | 2026-06-16 | 🗑️ Delete — superseded |
-| `sample_verbatims_output.txt` | Sample verbatim test run output | 2026-06-16 | 🗑️ Delete — superseded |
+| `topic_classify_output.txt` | Earlier topic classification run | 2026-06-16 | ⏸️ Review before deleting |
+| `classify_output.txt` | General classification output | 2026-06-16 | ⏸️ Review before deleting |
+| `sample_verbatims_output.txt` | Sample verbatim test run output | 2026-06-16 | ⏸️ Review before deleting |
 
 ---
 
@@ -146,7 +146,7 @@ Preserved for historical reference. Do not attach to chats — these are superse
 | `TAXONOMY_V3_BUILD_HANDOFF.md` | V3 build session context | 2026-05-29 | 📦 Archive — V3 complete, no need to attach |
 | `Session_Handoff_2026-06-26.md` | Session handoff 2026-06-26 | 2026-06-26 | ✅ Active |
 | `Workspace_Guide_2026-06-26.md` | Dated snapshot of workspace guide | 2026-06-26 | 📦 Superseded by `docs/Workspace_Guide.md` |
-| `Workspace_Guide_2026-06-26.docx` | Word export of above | 2026-06-26 | 🗑️ Delete — local artifact, gitignored |
+| `Workspace_Guide_2026-06-26.docx` | Word export of above | 2026-06-26 | ⏸️ Review before deleting |
 | `assessments/2026-06-26.md` | Day 0 Gen AI skills baseline assessment | 2026-06-26 | ✅ Active |
 | `README.md` | Handoffs folder usage guide | 2026-05-28 | ✅ Active |
 | `TEMPLATE.md` | Session handoff template | 2026-05-28 | ✅ Active |
@@ -200,4 +200,4 @@ Preserved for historical reference. Do not attach to chats — these are superse
 | ✅ Active | In use, safe to attach |
 | 📦 Archived | Preserved for history, do not attach |
 | 🔄 Draft | In progress, treat as provisional |
-| 🗑️ Delete | Local artifact — safe to delete |
+| ⏸️ Review before deleting | Likely obsolete — review contents before removing |
