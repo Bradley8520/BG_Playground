@@ -32,33 +32,46 @@ Your repo uses a **commit message template** (`.gitmessage`) — run `git commit
 BG_Playground/
 │
 ├── .github/
-│   └── copilot-instructions.md     ← Most important file. Auto-injected into every chat.
+│   ├── copilot-instructions.md         ← Most important file. Auto-injected into every chat.
+│   └── prompts/                        ← VS Code reusable prompt files (.prompt.md)
+│       ├── deploy-checklist.prompt.md
+│       ├── session-handoff.prompt.md
+│       └── write-query.prompt.md
 │
 ├── .vscode/
-│   └── settings.json               ← Workspace editor settings (font, rulers, tab sizes)
+│   └── settings.json                   ← Workspace editor settings (font, rulers, tab sizes)
 │
-├── docs/                           ← Living reference documents (never dated, always current)
-│   ├── Workspace_Guide.md          ← This file
-│   └── Trigger_Phrases_Reference.md ← All 16 trigger phrases with full definitions
+├── docs/                               ← Living reference documents (never dated, always current)
+│   ├── Workspace_Guide.md              ← This file
+│   └── Trigger_Phrases_Reference.md    ← All trigger phrases with full definitions
 │
-├── handoffs/                       ← Dated session memory (one file per session)
-│   ├── TEMPLATE.md                 ← Master form for wrap-up handoffs
-│   ├── Session_Handoff_2026-06-26.md
-│   └── Workspace_Guide_2026-06-26.md  ← Original dated guide (archived)
+├── handoffs/                           ← Dated session memory (one file per session)
+│   ├── assessments/                    ← Skills assessment snapshots (.md, dated — track progress)
+│   │   └── 2026-06-26.md
+│   ├── learning-log/                   ← [created on first coding lesson] lesson logs by date/language
+│   ├── TEMPLATE.md                     ← Master form for wrap-up handoffs
+│   ├── README.md                       ← Explains handoffs purpose and naming convention
+│   └── [dated session handoffs .md]    ← Session_Handoff, VOC taxonomy, taxonomy V3/V4, etc.
 │
 ├── projects/
-│   └── voc-taxonomy/               ← VOC taxonomy work (self-contained project)
+│   └── voc-taxonomy/                   ← VOC taxonomy work (self-contained project)
 │       ├── README.md
-│       ├── docs/                   ← Project-level docs and mapping tables
-│       ├── output/                 ← gitignored: classification outputs
-│       ├── prompts/                ← LLM prompt files used in scripts
-│       ├── scripts/                ← Python scripts for classification, conversion
-│       ├── taxonomy/               ← Taxonomy CSV files (master versions)
-│       └── verbatims/              ← gitignored: raw customer verbatim text
+│       ├── docs/                       ← Project docs (.md)
+│       │   └── *.md                    ← Care mapping, shop/purchase analysis, prompt guide, taxonomy revision notes
+│       ├── output/                     ← gitignored: classification outputs (.txt)
+│       ├── prompts/                    ← LLM prompt templates (.md)
+│       ├── scripts/                    ← Python scripts (.py) + SQL queries (.sql)
+│       │   ├── *.py                    ← classify_*, analyze_trust_subtopics2, build_*, sample_*, md_to_docx
+│       │   ├── *.sql                   ← Retail_Store_Verbatims.sql, Classification_Hierarchy.sql
+│       │   └── archive/                ← Superseded scripts (analyze_trust_subtopics.py v1)
+│       ├── taxonomy/                   ← Master taxonomy files (.csv only)
+│       │   └── *.csv                   ← VOC_Classification_Taxonomy v1–v4, V3 step files, results
+│       └── verbatims/                  ← gitignored: raw verbatim data (.csv)
 │
-├── skills/                         ← Copilot workflow instruction files
-│   ├── advanced-prompting/SKILL.md
+├── skills/                             ← Copilot workflow instruction files (.md)
 │   ├── ad-hoc-query/SKILL.md
+│   ├── advanced-prompting/SKILL.md
+│   ├── coding-teacher/SKILL.md
 │   ├── deploy/SKILL.md
 │   ├── doc-export/SKILL.md
 │   ├── learning-coach/SKILL.md
@@ -71,9 +84,10 @@ BG_Playground/
 │   ├── verbatim-analysis/SKILL.md
 │   └── workspace-review/SKILL.md
 │
-├── .gitignore                      ← Excludes: *.docx, *.xlsx, verbatims/, output/, etc.
-├── .gitmessage                     ← Git commit message template
-└── README.md                       ← Root repo overview
+├── .gitignore                          ← Excludes: *.docx, *.xlsx, verbatims/, output/, .venv/
+├── .gitmessage                         ← Git commit message template (feat/fix/docs/chore/refactor)
+├── .venv/                              ← gitignored: Python virtual environment (local only)
+└── README.md                           ← Root repo overview
 ```
 
 ---
@@ -125,6 +139,7 @@ Skills are **procedure files that tell Copilot exactly how to perform a task** i
 |-------|-------------|---------------|
 | `advanced-prompting/SKILL.md` | 13-technique prompting library, weekly practice protocol | `prompt coaching` / `prompt tip` |
 | `ad-hoc-query/SKILL.md` | Rapid exploratory query workflow | `ad hoc: [question]` |
+| `coding-teacher/SKILL.md` | Structured 15–30 min coding lessons using real workspace files (SQL → Python → PowerShell) | `coding lesson` / `walk me through [file]` / `teach me [X]` |
 | `deploy/SKILL.md` | Deployment checklist with confirmation gate | `deploy [env]` |
 | `doc-export/SKILL.md` | Convert markdown output to Word (.docx) | `export as Word` |
 | `learning-coach/SKILL.md` | Standing coaching behaviors — active every session | `explain that` / `teach me` |

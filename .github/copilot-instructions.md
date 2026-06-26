@@ -131,6 +131,10 @@ When I type these phrases, follow the associated workflow:
 | `explain that` / `teach me` / `why did you do it that way` / `is there a better way` / `quiz me` | Load `skills/learning-coach/SKILL.md` — coaching and learning mode |
 | `verbatim: [X]` / `analyze verbatims` | Load `skills/verbatim-analysis/SKILL.md` — verbatim analysis workflow |
 | `prompt coaching` / `prompt tip` / `advanced prompting` | Load `skills/advanced-prompting/SKILL.md` — advanced prompting technique coaching and practice |
+| `coding lesson` / `start a coding lesson` | Load `skills/coding-teacher/SKILL.md` — structured 15–30 min lesson using real workspace code |
+| `walk me through [filename]` | Load `skills/coding-teacher/SKILL.md` — line-by-line walkthrough of a specific file |
+| `teach me [command/concept]` | Load `skills/coding-teacher/SKILL.md` — focused mini-lesson applied to real code |
+| `coding practice` | Load `skills/coding-teacher/SKILL.md` — jump straight to a practice exercise |
 
 ---
 
@@ -151,6 +155,7 @@ Load these files when tasks match their domain:
 - `skills/verbatim-analysis/SKILL.md` — Customer verbatim analysis and classification workflow
 - `skills/python-scripts/SKILL.md` — Python environment facts, conventions, and reusable patterns
 - `skills/session-start/SKILL.md` — Session startup checklist to restore context and set goals
+- `skills/coding-teacher/SKILL.md` — Structured coding lessons (SQL → Python → PowerShell) using real workspace files and data
 
 ---
 
