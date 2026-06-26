@@ -1,7 +1,7 @@
 # Document Inventory
 
 > **Living document** — update whenever files are added, archived, or retired.
-> Last updated: 2026-06-26
+> Last updated: 2026-06-26 (deleted superseded Workspace_Guide snapshots)
 > Trigger phrase: `review my workspace` will prompt a full refresh of this file.
 
 ---
@@ -145,8 +145,6 @@ Preserved for historical reference. Do not attach to chats — these are superse
 | `SHOP_PURCHASE_SUBTOPIC_DESIGN_HANDOFF.md` | Shop/Purchase subtopic design session | 2026-06-16 | ✅ Active |
 | `TAXONOMY_V3_BUILD_HANDOFF.md` | V3 build session context | 2026-05-29 | 📦 Archive — V3 complete, no need to attach |
 | `Session_Handoff_2026-06-26.md` | Session handoff 2026-06-26 | 2026-06-26 | ✅ Active |
-| `Workspace_Guide_2026-06-26.md` | Dated snapshot of workspace guide | 2026-06-26 | 📦 Superseded by `docs/Workspace_Guide.md` |
-| `Workspace_Guide_2026-06-26.docx` | Word export of above | 2026-06-26 | ⏸️ Review before deleting |
 | `assessments/2026-06-26.md` | Day 0 Gen AI skills baseline assessment | 2026-06-26 | ✅ Active |
 | `README.md` | Handoffs folder usage guide | 2026-05-28 | ✅ Active |
 | `TEMPLATE.md` | Session handoff template | 2026-05-28 | ✅ Active |
