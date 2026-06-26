@@ -1,0 +1,20 @@
+# <type>: <summary> (50 chars max)
+#
+# Types:
+#   feat     - new skill, trigger phrase, workflow, or script
+#   fix      - corrects a bug or broken behavior
+#   docs     - adds or updates a handoff, guide, or reference doc
+#   chore    - maintenance (cleanup, renaming, reorganizing)
+#   refactor - restructures existing content without changing behavior
+#
+# Body (optional — wrap at 72 chars):
+# - What changed and why
+# - Key files affected
+# - Session handoff: handoffs/<filename>.md (if applicable)
+#
+# Examples:
+#   feat: add verbatim-analysis skill and trigger phrase
+#   docs: add Workspace_Guide_2026-06-26 handoff
+#   chore: move trigger phrases ref doc from skills/ to docs/
+#
+# Lines starting with # are ignored by git.

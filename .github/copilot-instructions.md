@@ -120,10 +120,17 @@ When I type these phrases, follow the associated workflow:
 | `refresh metadata`         | Load `skills/metadata-refresh/SKILL.md` — schema discovery protocol |
 | `ad hoc: [question]`       | Load `skills/ad-hoc-query/SKILL.md` — rapid query + explain workflow |
 | `taxonomy: [X]`            | Load `skills/taxonomy/SKILL.md` — taxonomy build, edit, conversion & definition standards |
+| `export as Word` / `save as Word doc` / `convert to Word` | Load `skills/doc-export/SKILL.md` — markdown-to-Word conversion process |
 | `that fixed it`            | Offer to capture session learnings and update the handoff document   |
-| `wrap up` / `end session`  | Generate a session handoff using `handoffs/TEMPLATE.md`             |
+| `wrap up` / `end session`  | Generate a session handoff using `handoffs/TEMPLATE.md`; also trigger skills assessment summary if session was substantive |
 | `what did we do today`     | Summarize all changes, decisions, and learnings from this session    |
 | `show me the checklist`    | Display the relevant checklist for the current task context          |
+| `start session` / `new session` / `where did we leave off` | Load `skills/session-start/SKILL.md` — session startup checklist |
+| `assess my skills` / `run my assessment` / `skills review` / `how am I doing` | Load `skills/skills-assessment/SKILL.md` — Gen AI skills evaluation |
+| `review my workspace` / `workspace cleanup` / `folder review` / `am I organized` | Load `skills/workspace-review/SKILL.md` — folder/file hygiene review |
+| `explain that` / `teach me` / `why did you do it that way` / `is there a better way` / `quiz me` | Load `skills/learning-coach/SKILL.md` — coaching and learning mode |
+| `verbatim: [X]` / `analyze verbatims` | Load `skills/verbatim-analysis/SKILL.md` — verbatim analysis workflow |
+| `prompt coaching` / `prompt tip` / `advanced prompting` | Load `skills/advanced-prompting/SKILL.md` — advanced prompting technique coaching and practice |
 
 ---
 
@@ -136,6 +143,35 @@ Load these files when tasks match their domain:
 - `skills/metadata-refresh/SKILL.md` — Schema/metadata discovery and caching
 - `skills/ad-hoc-query/SKILL.md` — Rapid ad-hoc data exploration
 - `skills/taxonomy/SKILL.md` — VOC taxonomy build, edit, conversion standards, and known gotchas
+- `skills/doc-export/SKILL.md` — Convert any markdown output to a formatted, print-ready Word document
+- `skills/advanced-prompting/SKILL.md` — Advanced prompting techniques, weekly practice protocol, and benchmarks
+- `skills/learning-coach/SKILL.md` — Active learning coaching behaviors; loads on coaching trigger phrases
+- `skills/skills-assessment/SKILL.md` — Gen AI skills evaluation framework; run weekly or on request
+- `skills/workspace-review/SKILL.md` — Folder/file hygiene checklist; run weekly or on request
+- `skills/verbatim-analysis/SKILL.md` — Customer verbatim analysis and classification workflow
+- `skills/python-scripts/SKILL.md` — Python environment facts, conventions, and reusable patterns
+- `skills/session-start/SKILL.md` — Session startup checklist to restore context and set goals
+
+---
+
+## Coaching Behavior (Always Active)
+
+Copilot acts as a learning coach in all sessions. See `skills/learning-coach/SKILL.md` for full protocol. Summary:
+- After non-trivial tasks: add a brief "Coach note" if a better approach exists
+- Name techniques and patterns when using them
+- Ask one reflection question after completing complex work
+- Flag when a repeated pattern should be codified as a skill
+- Never block task completion to coach — finish first, then teach
+
+---
+
+## Maintenance Rules (Always Apply)
+
+**Trigger Phrase Reference Doc:** `docs/Trigger_Phrases_Reference.md`
+- Whenever a new skill file is created, add it to both the **Skills Reference** section above AND `docs/Trigger_Phrases_Reference.md` (Skills Reference section at bottom).
+- Whenever a new trigger phrase is added to the table above, add a full entry to `docs/Trigger_Phrases_Reference.md` with: what it does, skill loaded, what to expect, and an example.
+- Keep the Quick Reference Card table at the bottom of `docs/Trigger_Phrases_Reference.md` in sync with the trigger phrase table above.
+- Update the `Last updated:` date in `docs/Trigger_Phrases_Reference.md` whenever it is changed.
 
 ---
 

@@ -1,0 +1,10 @@
+-- Purpose: Extract distinct Topic > Sub-topic classification hierarchy from existing VOC model
+SELECT DISTINCT
+    CATEGORY_LEVEL_2  AS topic,
+    CATEGORY_LEVEL_3  AS sub_topic
+FROM AZSLSDCE_DWS_P.SDW_DWS_SLSDCE_VIEWS.SRVY_TXT_CAT_CARE
+WHERE CATEGORY_LEVEL_2 IS NOT NULL
+  AND CATEGORY_LEVEL_3 IS NOT NULL
+ORDER BY
+    CATEGORY_LEVEL_2,
+    CATEGORY_LEVEL_3;
