@@ -6,6 +6,18 @@
 
 ---
 
+## My Prompting Goal
+
+> *"I want to reach 'Leading Edge' on the advanced-prompting benchmark within 90 days by applying one new technique per week to real work tasks."*
+
+Milestones:
+- **Day 0 (baseline):** Run `assess my skills` to establish starting score
+- **Day 30:** Reach "Advanced" tier — RCTF + CoT + Few-Shot are default habits
+- **Day 60:** Using prompt chaining and verification loops consistently in real work
+- **Day 90:** Reach "Leading Edge" — building reusable templates, using meta-prompting, adversarial review
+
+---
+
 ## Coaching Protocol (Active Every Session)
 
 When this skill is loaded, Copilot will:

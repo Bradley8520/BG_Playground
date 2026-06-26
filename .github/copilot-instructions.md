@@ -173,6 +173,11 @@ Copilot acts as a learning coach in all sessions. See `skills/learning-coach/SKI
 - Keep the Quick Reference Card table at the bottom of `docs/Trigger_Phrases_Reference.md` in sync with the trigger phrase table above.
 - Update the `Last updated:` date in `docs/Trigger_Phrases_Reference.md` whenever it is changed.
 
+**Workspace Guide:** `docs/Workspace_Guide.md`
+- Whenever new project folders, skill files, tools, or structural changes are made to the workspace, update `docs/Workspace_Guide.md` to reflect the current state.
+- Update the Folder Map, the skills table, and the installed tools/extensions tables as appropriate.
+- Update the `Last updated:` date at the top of `docs/Workspace_Guide.md` whenever it is changed.
+
 ---
 
 ## Coding Conventions
