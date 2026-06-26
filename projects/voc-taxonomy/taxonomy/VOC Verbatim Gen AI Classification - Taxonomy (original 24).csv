@@ -1,0 +1,25 @@
+﻿Count,VOC Taxonomy
+1,"Rep Was Courteous → Customer explicitly describes the representative’s positive demeanor (e.g., polite, friendly, respectful, professional, patient) during the interaction."
+2,"Rep Not Courteous → Customer explicitly describes the representative as discourteous (e.g., rude, dismissive, disrespectful, hostile, pushy, unprofessional) in tone or behavior."
+3,"Rep Was Helpful → Customer states the representative provided effective assistance, support, or problem-solving (e.g., helped, resolved, accommodated, went above and beyond)."
+4,"Rep Not Helpful → Customer states the representative failed to provide useful assistance (e.g., unresponsive, no help, wasted time, didn’t answer questions, incapable of resolving)."
+5,"Rep Was Knowledgeable → Customer indicates the representative was competent and informed, giving confident guidance or accurate explanations (e.g., knowledgeable, well-trained, knew their stuff)."
+6,"Rep Not Knowledgeable → Customer indicates the representative lacked knowledge or competence (e.g., clueless, untrained, inexperienced, misinformed, didn’t understand the issue). "
+7,"Bill Increase → Customer comments that their bill increased compared to a prior period (e.g., bill went up, unexpected hike, rate increased, higher than last month). "
+8,"Bill Too High → Customer expresses that the bill is too expensive overall (e.g., overpriced, paying too much, excessive charges) without requiring a comparison to prior bills."
+9,"Bill Dispute → Customer challenges specific charges or claims a billing error and requests investigation, correction, or refund (e.g., incorrect charge, wrong amount, dispute)."
+10,"Seeking Credits → Customer requests an account credit/adjustment/refund/compensation to be applied due to an error, overcharge, or service issue (i.e., a credit request rather than a promo). "
+11,"Need to Lower Bill → Customer states a need to reduce ongoing monthly cost for affordability/value reasons (e.g., can’t afford, want cheaper plan, reduce charges), not primarily to correct an error."
+12,Call Disconnects → Customer reports the call with the representative was unexpectedly disconnected/dropped/ended abruptly during the interaction. 
+13,"Transfers/Multiple Reps → Customer reports interacting with more than one representative, including being transferred or passed between agents during the same issue/contact."
+14,"Long Wait for Rep → Customer complains about a long delay before reaching any representative (queue time prior to first connection), not hold time after connection. "
+15,Long Hold Time → Customer complains about being placed on hold for a long time during the call after already speaking with a representative. 
+16,"Multiple Holds → Customer reports being put on hold multiple separate times within the same call (frequency), regardless of the length of each hold."
+17,Wait/Hold Time → Customer mentions long waiting/hold time in general without clearly separating whether it occurred before reaching a rep or while on hold mid-call.
+18,"Callbacks Never Received → Customer explicitly states a promised callback (agent/supervisor/manager follow-up) did not occur after a disconnection, escalation, or scheduled return call, or that the automated callback system failed (e.g., called and hung up, timed out)."
+19,"Missed Field Tech Appointment → Customer reports a scheduled technician visit (install/repair/service call) was a no-show or missed appointment, often with no advance notice/communication and sometimes repeated reschedules."
+20,"Wireless Coverage → Customer reports poor or no mobile network coverage/signal in their area (e.g., no bars/no service/SOS only/dead zone, recurring outages, must move to a specific spot to get reception) impacting ability to use cellular service."
+21,"No Feedback → Verbatim provides no substantive feedback about the interaction (e.g., simple acknowledgments/declines such as 'no', 'none', 'n/a', 'nothing', 'no thanks', 'ok', 'done', 'thank you') or close variants."
+22,"Error Correction → Verbatim indicates the customer entered the wrong survey rating/response and is correcting it (e.g., 'I meant 5', 'should have been 5', 'mistake', 'sorry wrong score', '1 not 2')."
+23,"Stop → Verbatim is an opt-out request intended to stop receiving SMS/surveys (e.g., 'stop', 'opt out', 'unsubscribe', 'end', 'do not text')."
+24,"Wrong Customer → Verbatim states the survey was received in error because the respondent was not the person who interacted with AT&T (e.g., “I didn’t call”, “I didn’t visit a store”, “this is not [name]”, “this wasn’t me”). Exclude “wrong number” when it refers to pressing/entering the wrong survey rating/response (that belongs to Error Correction), unless the customer clearly says the survey was sent to the wrong person (identity mismatch)."

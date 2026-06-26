@@ -1,0 +1,59 @@
+Topic,Sub-Topic,Polarity,Count,Pct_of_Total,Topic_Neg_Total
+New Account,Account Setup Error,Negative,42,0.043,106
+New Account,New Service Not Activating,Negative,0,0.0,106
+New Account,Port-In Stalled or Failed,Negative,56,0.058,106
+New Account,SIM or Equipment Not Received,Negative,8,0.008,106
+New Account,New Account Opened Successfully,Positive,21,0.022,106
+Activation & Porting,SIM or eSIM Activation Failed,Negative,0,0.0,1
+Activation & Porting,IMEI or Device Not Recognized,Negative,0,0.0,1
+Activation & Porting,Number Port-In Incomplete,Negative,1,0.001,1
+Activation & Porting,Activation or Port Completed,Positive,6,0.006,1
+Add a Line,Add a Line - Extended Time or Multiple Contacts,Negative,3,0.003,6
+Add a Line,Add a Line - Wrong Plan or Rate Applied,Negative,0,0.0,6
+Add a Line,Add a Line - Cost Not Accurately Disclosed,Negative,0,0.0,6
+Add a Line,Add a Line - Conflicting Channel Instructions,Negative,3,0.003,6
+Add a Line,Add a Line - Completed Correctly,Positive,3,0.003,6
+Upgrade,Upgrade Fee Not Disclosed at POS,Negative,22,0.023,83
+Upgrade,Upgrade Eligibility Blocked,Negative,40,0.041,83
+Upgrade,Next Up Anytime - Not Offered or Misunderstood,Negative,0,0.0,83
+Upgrade,Upgrade Process - Extended Time or System Failure,Negative,21,0.022,83
+Upgrade,Upgrade Completed Successfully,Positive,19,0.02,83
+Want a New Device,No Competitive Offer for Existing Customer,Negative,8,0.008,814
+Want a New Device,Plan Type Limiting Device Access or Pricing,Negative,2,0.002,814
+Want a New Device,Competitor Offer Driving Consideration,Negative,804,0.829,814
+Want a New Device,Rep Helped Find Right Device or Deal,Positive,19,0.02,814
+Trade-In,Trade-In Credit Not Applied to Account,Negative,15,0.015,24
+Trade-In,Trade-In Value Misrepresented at POS,Negative,4,0.004,24
+Trade-In,Trade-In Device Lost - No AT&T Receipt Confirmation,Negative,5,0.005,24
+Trade-In,Trade-In Return Label or Kit Not Provided,Negative,0,0.0,24
+Trade-In,Trade-In Processed Correctly,Positive,11,0.011,24
+Fulfillment - Order,Order Cancelled Unexpectedly,Negative,95,0.098,142
+Fulfillment - Order,Wrong Item Shipped,Negative,12,0.012,142
+Fulfillment - Order,Payment Processing Failure,Negative,34,0.035,142
+Fulfillment - Order,Order Status Unavailable or Inaccurate,Negative,1,0.001,142
+Fulfillment - Order,Order Fulfilled Accurately,Positive,3,0.003,142
+Fulfillment - Delivery,Delivery Late or Missed Promised Date,Negative,11,0.011,45
+Fulfillment - Delivery,Package Lost in Transit,Negative,34,0.035,45
+Fulfillment - Delivery,Missed Delivery - No Flexible Re-delivery Option,Negative,0,0.0,45
+Fulfillment - Delivery,Delivered On Time and Intact,Positive,1,0.001,45
+Returns,Return Label Missing or Not Sent,Negative,0,0.0,5
+Returns,30-Day Return Window Not Disclosed at POS,Negative,0,0.0,5
+Returns,Return Confirmed - Credit or Refund Not Applied,Negative,0,0.0,5
+Returns,Equipment Return Fee Charged After Return,Negative,5,0.005,5
+Returns,Return Processed and Credited Correctly,Positive,7,0.007,5
+Exchange & Replace,Exchange Needed - Wrong Item Received,Negative,0,0.0,10
+Exchange & Replace,Exchange Needed - Defective or Damaged on Arrival,Negative,2,0.002,10
+Exchange & Replace,Refurbished Device Received When New Expected,Negative,8,0.008,10
+Exchange & Replace,Exchange or Replacement Completed Correctly,Positive,7,0.007,10
+Warranty & Device Protection,Protection Plan Claim - Process Friction,Negative,6,0.006,13
+Warranty & Device Protection,Next Up Anytime - Exchange or Return Issue,Negative,1,0.001,13
+Warranty & Device Protection,Protection Plan Added Without Customer Consent,Negative,6,0.006,13
+Warranty & Device Protection,Protection Plan Exchange Completed Successfully,Positive,8,0.008,13
+"Price, Promo & Credits",Promotional Credit Not Applied,Negative,15,0.015,61
+"Price, Promo & Credits",Bill Higher Than Price Quoted at POS,Negative,32,0.033,61
+"Price, Promo & Credits",Free Device Offer Not Honored,Negative,14,0.014,61
+"Price, Promo & Credits",Price Match or Rebate Not Fulfilled,Negative,0,0.0,61
+"Price, Promo & Credits",Promotional Credit Applied Correctly,Positive,78,0.08,61
+Unauthorized Account Changes,Line Added Without Customer Consent,Negative,1,0.001,28
+Unauthorized Account Changes,Feature or Service Added Without Permission,Negative,22,0.023,28
+Unauthorized Account Changes,Plan or Account Changed Without Authorization,Negative,5,0.005,28

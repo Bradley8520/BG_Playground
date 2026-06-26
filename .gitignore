@@ -1,0 +1,39 @@
+# =============================================================
+# BG_Playground — .gitignore
+# =============================================================
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Binary / non-diffable files (store locally, not in git) ---
+*.xlsx
+*.docx
+*.pdf
+
+# --- Customer verbatim data (sensitive — local only) ---
+projects/*/verbatims/
+
+# --- Generated output files (reproducible artifacts) ---
+projects/*/output/
+
+# --- Python artifacts ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+*.egg
+
+# --- OS artifacts ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Temp / editor artifacts ---
+*.tmp
+~$*
+.idea/
+.vscode/settings.json
