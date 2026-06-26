@@ -1,7 +1,7 @@
 # BG_Playground Workspace Guide
 
 > **Living document** — updated automatically whenever the workspace structure changes.
-> Last updated: 2026-06-26
+> Last updated: 2026-06-26 (added Document_Inventory.md)
 > For session-specific context, see `handoffs/` dated files.
 
 ---
@@ -43,7 +43,8 @@ BG_Playground/
 │
 ├── docs/                               ← Living reference documents (never dated, always current)
 │   ├── Workspace_Guide.md              ← This file
-│   └── Trigger_Phrases_Reference.md    ← All trigger phrases with full definitions
+│   ├── Trigger_Phrases_Reference.md    ← All trigger phrases with full definitions
+│   └── Document_Inventory.md          ← Living inventory of all workspace files (status, summary, archive log)
 │
 ├── handoffs/                           ← Dated session memory (one file per session)
 │   ├── assessments/                    ← Skills assessment snapshots (.md, dated — track progress)
