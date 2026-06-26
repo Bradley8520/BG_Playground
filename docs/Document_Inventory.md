@@ -92,6 +92,7 @@ Add for prompt work:
 | `Taxonomy_Revision_Handoff_Current_Model_Gaps.md` | Gap analysis for current model | 2026-06-17 | ✅ Active |
 | `VOC_Prompt_Authoring_Guide.md` | Guide for writing classification prompts | 2026-06-19 | ✅ Active |
 | `Shop_Purchase_VOC_SubTopic_Analysis_FebApr2026.md` | Subtopic analysis results for Shop/Purchase | 2026-06-16 | ✅ Active |
+| `Taxonomy_V4_Critique_2026-06-26.md` | Expert NLP/DS critique of V4 taxonomy — grade, findings, recommendations, prompting guidance | 2026-06-26 | ✅ Active |
 | `Taxonomy_Skill_Master_Reference_DRAFT.md` | Draft master reference for taxonomy skill | 2026-06-23 | 🔄 Draft — incorporate into `skills/taxonomy/SKILL.md` when finalized |
 
 ---
